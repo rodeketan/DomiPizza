@@ -1,0 +1,64 @@
+#pizza_background {
+    position: absolute;
+    z-index:-99;
+}
+#category {
+    position: absolute;
+    top:33%;
+    width:15%;
+}
+#category a{
+
+    background-color: transparent;
+    font-weight: bold;
+      background-color: #f0e999;
+}
+#category a:hover{
+    background-color: rgb(41, 41, 46);
+    color: white;
+}
+#logo {
+
+    padding:0px;
+    font-family: webLogo ;
+    font-size: 70px;
+    
+    color: #453636;
+
+}
+
+@font-face {
+    font-family: webLogo;
+    src: url(Qwigley-Regular.ttf);
+}
+#center_box,#username {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+th {
+    border-bottom: 1px solid white;
+}
+#checkout {
+    color:white;
+    position: absolute;
+    top:33%;
+    right:0%;
+    width:23%;
+}
+.plus:hover {
+    cursor: pointer;
+}
+#username {
+    position: absolute;
+    right: 0;
+}
+li {
+    list-style-type: none;
+}
+#place_order div:hover,#confirm_order div:hover{
+    box-shadow: 0px 0px 10px white;
+}
+#my_orders_container {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
