@@ -19,16 +19,16 @@ I have added a feature of allowing the site administrator to mark orders as comp
 
 
 
-  1. index.hmlt, login.html, signin.html, menu.html- These files are extending layout.html file.
+  1. **index.hmlt, login.html, signin.html, menu.html**- These files are extending layout.html file.
 
-  2. my_orders.html- This file shows the items that the user has ordered.
+  2. **my_orders.html**- This file shows the items that the user has ordered.
 
-  3. orders_manager.html- This file is only rendered when the user logs in as superuser. This gives access to the superuser to change the status of the order.
+  3. **orders_manager.html**- This file is only rendered when the user logs in as superuser. This gives access to the superuser to change the status of the order.
 
-  4. models.py- This file defines all the tables of the database.
+  4. **models.py**- This file defines all the tables of the database.
 
-  5. urls.py- This file defines all the routes to the functions.
+  5. **urls.py**- This file defines all the routes to the functions.
 
-  6. views.py- This contains the main program and functions which render the html files.
+  6. **views.py**- This contains the main program and functions which render the html files.
 
-  7. Static folder contains 3 .png files and a style.css file.
+  7. **Static folder** contains 3 .png files and a style.css file.
