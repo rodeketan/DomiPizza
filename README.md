@@ -1,4 +1,4 @@
-# Pizza App
+# DomiPizza App
 - It is a Django based application in which users after login are able to browse the restaurant’s menu, add items to their cart, and submit their orders.
 - In backend restaurant owners can add and update menu items, view orders that have been placed, and change the status of the order.
 - Bootstrap4 is also included in order to make it more appealing. Program automatically creates superuser account at first start.
